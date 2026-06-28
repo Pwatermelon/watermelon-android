@@ -2,15 +2,14 @@
 
 Android-клиент Watermelon Messenger.
 
-Репозиторий для отдельной разработки; рядом с основным проектом:
+Отдельный репозиторий того же проекта:
 
-```
-Documents/
-├── melon-messenger/   # API, web, deploy
-├── melon-ios/
-├── melon-android/     # этот репозиторий
-└── melon-infra/
-```
+| Репозиторий | Назначение |
+|-------------|------------|
+| [melon-messenger](https://github.com/Pwatermelon/melon-messenger) | API, web, deploy |
+| [watermelon-ios](https://github.com/Pwatermelon/watermelon-ios) | iOS / macOS |
+| [watermelon-android](https://github.com/Pwatermelon/watermelon-android) | Android (этот) |
+| melon-infra | Инфраструктура (будущее) |
 
 ## Статус
 
@@ -22,4 +21,4 @@ Documents/
 - WebSocket: `{baseURL}/ws`
 - Auth: OAuth Yandex → JWT (`GET /auth/yandex?platform=native`, `POST /auth/yandex/exchange`)
 
-Подробности по OAuth — в [melon-ios/YANDEX_OAUTH.md](../melon-ios/YANDEX_OAUTH.md).
+Подробности по OAuth — в [watermelon-ios/YANDEX_OAUTH.md](https://github.com/Pwatermelon/watermelon-ios/blob/main/YANDEX_OAUTH.md).
