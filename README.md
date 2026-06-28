@@ -1,4 +1,4 @@
-# Melon Android
+# Watermelon Android
 
 Android-клиент Watermelon Messenger.
 
@@ -6,10 +6,10 @@ Android-клиент Watermelon Messenger.
 
 | Репозиторий | Назначение |
 |-------------|------------|
-| [melon-messenger](https://github.com/Pwatermelon/melon-messenger) | API, web, deploy |
+| [watermelon-messenger](https://github.com/Pwatermelon/watermelon-messenger) | API, web, deploy |
 | [watermelon-ios](https://github.com/Pwatermelon/watermelon-ios) | iOS / macOS |
 | [watermelon-android](https://github.com/Pwatermelon/watermelon-android) | Android (этот) |
-| melon-infra | Инфраструктура (будущее) |
+| [watermelon-infra](https://github.com/Pwatermelon/watermelon-infra) | Инфраструктура (будущее) |
 
 ## Статус
 
